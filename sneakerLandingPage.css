@@ -1,0 +1,463 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background:#02405F;
+}
+
+.showcase1{
+  width: 100%;
+  height: 100vh;
+  background:#02405F;
+}
+
+
+.abcd{
+  width: 100%;
+  height: 10vh;
+  /* background: blue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:50px 0px;
+}
+
+.abcd h1{
+  /* NEW FEATURED */
+  font-family: 'Arial';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 76px;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px #01080C;
+  text-align: center;
+}
+
+.showcase1 .shoecontent{
+  width: 100%;
+  height: 90vh;
+  /* background: yellow; */
+  display: flex;
+}
+
+.showcase1 .content{
+  width: 50%;
+  height: 90vh;
+  /* background: pink; */
+  /* display: flex;
+  align-items: center; */
+  /* justify-content: center; */
+  
+}
+
+.showcase1 .shoe{
+  width: 50%;
+  height: 90vh;
+  /* background: purple; */
+}
+
+.showcase1 .content img{
+  width: 60%;
+  
+  margin-top: 70px;
+  float: right !important;
+
+}
+
+.showcase1 .shoe img{
+  width: 70%;
+  
+}
+
+
+
+/* Showcase 2 */
+
+
+.showcase2{
+  width: 100%;
+  height: 100vh;
+  /* background:#02405F; */
+  background-image: linear-gradient(-170deg, #02405F 60%, #ffffff 60%)
+}
+
+
+.showcase2 .shoecontent{
+  width: 100%;
+  height: 90vh;
+  /* background: yellow; */
+  display: flex;
+}
+
+.showcase2 .content{
+  width: 50%;
+  height: 90vh;
+  /* background: pink; */
+  /* display: flex;
+  align-items: center; */
+  /* justify-content: center; */
+  
+}
+
+.showcase2 .shoe{
+  width: 50%;
+  height: 90vh;
+  /* background: purple; */
+}
+
+.showcase2 .content img{
+  width: 60%;
+  
+  margin-top: 70px;
+  float: left !important;
+
+}
+
+.showcase2 .shoe img{
+  width: 70%;
+  float:right !important;
+}
+
+
+/* shoecase 3 */
+
+.showcase3{
+  width: 100%;
+  height: 100vh;
+  background:#ffffff;
+}
+
+
+.showcase3 .shoecontent{
+  width: 100%;
+  height: 90vh;
+  /* background: yellow; */
+  display: flex;
+}
+
+.showcase3 .content{
+  width: 50%;
+  height: 90vh;
+  /* background: pink; */
+  /* display: flex;
+  align-items: center; */
+  /* justify-content: center; */
+  
+}
+
+.showcase3 .shoe{
+  width: 50%;
+  height: 90vh;
+  /* background: purple; */
+}
+
+.showcase3 .content img{
+  width: 60%;
+  
+  margin-top: 70px;
+  float: right !important;
+
+}
+
+.showcase3 .shoe img{
+  width: 70%;
+  
+}
+
+/* shoecase 4 */
+
+.showcase4{
+  width: 100%;
+  height: 100vh;
+  background:#ffffff;
+}
+
+
+.showcase4 .shoecontent{
+  width: 100%;
+  height: 90vh;
+  /* background: yellow; */
+  display: flex;
+}
+
+.showcase4 .content{
+  width: 50%;
+  height: 90vh;
+  /* background: pink; */
+  /* display: flex;
+  align-items: center; */
+  /* justify-content: center; */
+  
+}
+
+.showcase4 .shoe{
+  width: 50%;
+  height: 90vh;
+  /* background: purple; */
+}
+
+.showcase4 .content img{
+  width: 60%;
+  
+  margin-top: 70px;
+  float: right !important;
+
+}
+
+.showcase4 .shoe img{
+  width: 70%;
+  
+}
+
+.showcase5{
+  width: 100%;
+  height: 100vh;
+  background:#02405F;
+  /* background-image: linear-gradient(150deg, #ffffff 10%,#02405F 10% ); */
+  background-image: linear-gradient(176deg, #ffffff 20%, #02405f 10%)
+}
+
+.showcase5 .shoecontent{
+  width: 100%;
+  height: 90vh;
+  /* background: yellow; */
+  display: flex;
+  padding-top: 140px;
+}
+
+.showcase5 .content{
+  width: 50%;
+  height: 90vh;
+  /* background: pink; */
+  /* display: flex;
+  align-items: center; */
+  /* justify-content: center; */
+  
+}
+
+.showcase5 .shoe{
+  width: 50%;
+  height: 90vh;
+  /* background: purple; */
+}
+
+.showcase5 .content img{
+  width: 60%;
+  
+  margin-top: 70px;
+  float: right !important;
+
+}
+
+.showcase5 .shoe img{
+  width: 70%;
+  
+}
+
+
+
+/* FOOTER */
+
+
+/* FOOTER  */
+.footer {
+  width: 100%;
+  position: relative;
+  height: auto;
+  background-color: #02405F;
+  color:white;
+}
+.footer .col {
+  width: 190px;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0px 20px 20px 20px;
+}
+
+.footer .getintouch{
+  width: 230px;
+}
+.footer .getintouch ul{
+  list-style-type: none;
+}
+
+.footer .connectwithus{
+  width: 210px;
+}
+.footer .col h1 {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 17px;
+  padding: 20px 0px 5px 0px;
+  color:white;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.250em;
+}
+.footer .col ul {
+  /* list-style-type: none; */
+  margin: 0;
+  padding: 0;
+}
+.footer .col ul li {
+  color:white;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: lighter;
+  padding: 5px 0px 5px 0px;
+  cursor: pointer;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+}
+.social ul li {
+  display: inline-block;
+  padding-right: 5px !important;
+}
+
+.footer .col ul li:hover {
+  color: #ffffff;
+  transition: .1s;
+  -webkit-transition: .1s;
+  -moz-transition: .1s;
+}
+.clearfix {
+  clear: both;
+}
+@media only screen and (min-width: 1280px) {
+  .contain {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 1139px) {
+  .contain .social {
+    width: 1000px;
+    display: block;
+  }
+  .social h1 {
+    margin: 0px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .footer .col {
+    width: 33%;
+  }
+  .footer .col h1 {
+    font-size: 14px;
+  }
+  .footer .col ul li {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 500px) {
+    .footer .col {
+      width: 50%;
+    }
+    .footer .col h1 {
+      font-size: 14px;
+    }
+    .footer .col ul li {
+      font-size: 13px;
+    }
+}
+@media only screen and (max-width: 340px) {
+  .footer .col {
+    width: 100%;
+  }
+}
+
+
+
+/* SliderMENWOMEN */
+
+.slidermenwomen{
+  width: 100%;
+ 
+  background: red;
+}
+
+
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+.showcase1, .showcase2, .showcase3, .showcase4, .showcase5{
+  height: 100vh;   
+}
+.showcase1 .shoecontent,.showcase2 .shoecontent,.showcase3 .shoecontent,.showcase4 .shoecontent,.showcase5 .shoecontent{
+ 
+  height: 90vh;
+}
+
+.showcase1 .content,.showcase2 .content,.showcase3 .content,.showcase4 .content,.showcase5 .content{
+ 
+  height: 90vh;
+
+}
+
+.showcase1 .shoe,.showcase2 .shoe,.showcase3 .shoe,.showcase4 .shoe,.showcase5 .shoe{
+  height: 90vh;
+}
+.spaceup{
+margin-top:10px;
+}
+
+
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+.showcase1, .showcase3, .showcase4, .showcase5{
+  height: 30vh;
+}
+.showcase2{
+  height: 40vh;
+  margin-top: 90px;
+}
+.showcase1 .shoecontent,.showcase2 .shoecontent,.showcase3 .shoecontent,.showcase4 .shoecontent,.showcase5 .shoecontent{
+ 
+  height: 30vh;
+  margin: -5px 0px;
+  
+}
+
+.showcase1 .content,.showcase2 .content,.showcase3 .content,.showcase4 .content,.showcase5 .content{
+ 
+  height: 30vh;
+  
+}
+
+.showcase1 .shoe,.showcase2 .shoe,.showcase3 .shoe,.showcase4 .shoe,.showcase5 .shoe{
+  height: 30vh;
+}
+
+.abcd{
+margin-bottom: 80px;
+}
+
+.footerLogo{
+padding: 50px 0px;
+width: 70%;
+}
+.footerSocialIcons{
+margin-top:20px;
+}
+.spaceupRes{
+margin-top: 30px;
+}
+
+}
+
+
+.cd-handle{
+background: rgb(164, 164, 164);
+border-radius: 50%;
+}
