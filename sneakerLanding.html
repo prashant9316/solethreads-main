@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SOLETHREADS</title>
         <!-- Plugins bootstrap CSS File -->
         <link rel="stylesheet" href="./lib/bootstrap/bootstrap.min.css">
         <link rel="stylesheet" href="./lib/bootstrap/bootstrap-grid.min.css">
         <!-- Main CSS File -->
         <link rel="stylesheet" href="assets/sass/style.css">
-        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="nav3.css">
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap" rel="stylesheet">
@@ -26,17 +28,69 @@
     <link rel="stylesheet" href="sneakerLandingPage.css">
 </head>
 <body>
+<div class="wrapper">
+    
+    <div>
+        <div style="position: fixed; top: 0; width: 100%; height: 4vh; z-index: 12; background-color: #fff; padding: auto;">
+            <!-- <marquee direction="left" scrollamount="14" class="">
+            </marquee> -->
+            <h1 class="primary-color" style=" font-size: 15px; text-align: center; padding-top: 0.5vh; margin: 0; display: block; font-weight: 500;">GET UPTO 50% OFF ON FLIP FLOPS <a href="" style="text-decoration: underline;">SHOP NOW</a> </h1>
+        </div>
+    </div>
+    <header style="margin-top: 1vh;">
+        <nav>
+            <div class="nav-container" id="logo-section">
+                <div class="logo" id="">
+                    <img src="Logo Horizontal_white.png" style="width: 25%; top:5vh; position: absolute;">
+                </div>
+                <div class="btn">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+            <!--For links-->
+            <ul class="nav-links" style="padding-top: 20px; margin: auto; margin-top: 20px;" id="nav-links">
+                <li><a href="" class="nav-link">Sneakers</a></li>
+                <li class="dropdown">
+                    <a href="#" class="nav-link dropdown">Men</a>
+                </li>
+                <li><a href="" class="nav-link">Women</a></li>
+                <li><a href="" class="nav-link">Know your size</a></li>
+                <li><a href="" class="nav-link">Track your order</a></li>
+                <li><a href="" class="nav-link">About</a></li>
+                <li><a href="" class="nav-link">Blog</a></li>
+                <li style="padding-left: 20px">
+                    <ul class="nav-links" style="padding-top: 0px;">
+                        <li><a href="" class="nav-link"><span style="display: block; fill: #fff; margin: auto;" id="nav-icon-btn"
+                                    class="fa fa-user"></span></a></li>
+                        <li><a href="" class="nav-link"><span style="display: block; margin: auto;" id="nav-icon-btn"
+                                    class="fa fa-search"></span></a></li>
+                        <li><a href="" class="nav-link"><span style="display: block; margin: auto;" id="nav-icon-btn"
+                                    class="fa fa-shopping-cart"></span></a></li>
+                    </ul>
+                </li>
 
+            </ul>
+        </nav>
+        <!----Hero Image-->
+        <div class="main-title">
+
+        </div>
+    </header>
+    
+
+</div>
     
 <!-- sliderMENWOMEN -->
     <section class="slidermenwomen">
-        <figure class="cd-image-container">
-            <img src="img/slid1.jpeg" alt="Original Image" width="100%" height="50%">
+        <figure class="cd-image-container" style="max-height: 100vh; overflow: hidden;">
+            <img style="height: 100vw;  " src="./images/ref_imgs_poster/329777406a84fc066b4360b68ddc28d6.jpg" alt="Original Image" width="100%" height="50%">
             <!-- original -->
             <span class="cd-image-label" data-type="original"></span>
     
             <div class="cd-resize-img"> <!-- the resizable image on top -->
-                <img src="img/slid2.jpeg" alt="Modified Image" width="100%" height="50%">
+                <img style="height: 100vw; "  src="./images/ref_imgs_poster/d08a2e02a12c0304446e5911fa05fab8.jpg" alt="Modified Image" width="100%">
                 <!-- modified -->
                 <span class="cd-image-label" data-type="modified"></span>
             </div>
@@ -360,5 +414,6 @@
       <script src="./lib/bootstrap/popper.min.js"></script>
       <!-- Main JS File -->
     <script src="assets/js/theme.min.js"></script>
+    <script src="nav.js"></script>
 </body>
 </html>
