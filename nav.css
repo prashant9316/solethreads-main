@@ -31,12 +31,43 @@
     background-color: none;
   }
 
+  .nav-link{
+    display: inline;
+    position: relative;
+    color: #02405F;
+  }
 
-  @media screen and (max-width: 550px) {
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 4px;
+    bottom: 0;
+    left: 20%;
+    background-color: #fff;
+    transform-origin: bottom left;
+    transition: transform 0.25s ease-out;
+  }
+
+  .nav-link:hover::after {
+    transform: scaleX(0.6);
+    transform-origin: bottom left ;
+  }
+
+
+  @media screen and (max-width: 700px) {
     .nav-links{
         background-color: #02405F;
     }
     
+    .nav-link::after{
+      text-decoration: none;
+      height: 0px;
+    }
+    .nav-link:hover::after {
+      transform: scaleX(0);
+    }
   }
   .nav-links a{
     display:block;
@@ -64,8 +95,8 @@
   
   .nav-links a:hover{
     /* border-bottom: 3px white solid; */
-    text-decoration: underline 3px solid;
-    text-underline-offset: 16px;
+    /* text-decoration: underline 3px solid;
+    text-underline-offset: 16px; */
     /* width: 80%; */
     /* padding-bottom: 5px; */
     /* background-color: white; */
@@ -731,7 +762,9 @@
   }
   .slidercard .info h2{
     font-family: Arial;
-    padding: 10px 10px;
+    padding-top: 8px;
+    padding-bottom: 4px;
+    padding-left: 12px;
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 22px;
@@ -740,6 +773,7 @@
   .slidercard .info p{
     font-size: 12px;
     padding: 0px 10px;
+    padding-bottom: 15px;
     margin-bottom: 0px;
   }
   
