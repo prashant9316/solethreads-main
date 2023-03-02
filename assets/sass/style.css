@@ -1073,7 +1073,7 @@ svg {
       -ms-flex-pack: center;
           justify-content: center;
   color: #ffffff;
-  padding: 18px 0px 0px;
+  padding: 10px 0px 0px;
   margin: 0;
   letter-spacing: .02em;
 }
@@ -1748,10 +1748,12 @@ label {
   .animate-scale img {
     -webkit-transition: all .7s ease;
     transition: all .7s ease;
+    overflow: hidden;
   }
   .animate-scale:hover img {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+    overflow: hidden;
   }
   .animate-scale:hover::before {
     overflow: visible;
@@ -1984,13 +1986,13 @@ label {
   color: #b05d5d;
 }
 
-.has-stickyHeader [data-header-sticky] {
+/* .has-stickyHeader [data-header-sticky] {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.12);
           box-shadow: 0 0 3px rgba(0, 0, 0, 0.12);
-}
+} */
 
 .header .animate {
   -webkit-transition: -webkit-transform .15s ease-out;
@@ -1999,15 +2001,15 @@ label {
   transition: transform .15s ease-out, -webkit-transform .15s ease-out;
 }
 
-.has-stickyHeader [data-header-sticky] {
+/* .has-stickyHeader [data-header-sticky] {
   z-index: 20;
   will-change: transform;
-}
+} */
 
-.has-stickyHeader [data-header-sticky].sticky-up {
+/* .has-stickyHeader [data-header-sticky].sticky-up {
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
-}
+} */
 
 .has-stickyHeader .header-default .header-top {
   display: none;
@@ -3683,6 +3685,15 @@ label {
 .product-card-menu .product-card-top .product-card-media {
   max-width: 120px;
   margin: 0 auto;
+}
+
+.product-card-media{
+  height: 300px; 
+  width: 300px;  
+  overflow: hidden; 
+  border: 0.25px solid #a7a6a6; 
+  filter: drop-shadow(0px 4px 4px rgba(185, 183, 183, 0.25));
+  box-shadow: 0px 2px 7px #b5b5b5;
 }
 
 .product-card-menu .product-card-bottom .product-card-information .text {

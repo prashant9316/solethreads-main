@@ -108,9 +108,9 @@
   }
   /*---Header----*/
   header{
-    min-height: 100vh;
-    background:linear-gradient(rgba(13, 13, 13, 0), rgba(23, 23, 23, 0)),
-    url(image1.jpeg)center/cover fixed no-repeat;
+    min-height: 20vh;
+    /* background:linear-gradient(rgba(13, 13, 13, 0), rgba(23, 23, 23, 0)), */
+    /* url(image1.jpeg)center/cover fixed no-repeat; */
     display: flex;
     flex-direction: column;
   }
@@ -139,10 +139,11 @@
     position: fixed;
     width: 100%;
     z-index: 10;
+    background:#02405F;
     transition: background 2s ease;
   }
   .navBackground{
-    background:#02405F;
+    /* background:#02405F; */
   }
   /*================Hero Image===========*/
   
@@ -290,7 +291,34 @@
 
   
 
+.complete-page{
+    width: 90vw;
+    margin: auto;
+    display: block;
+    padding-top: 2vh;
+}
+.sneaker-heading{
+    margin-bottom: 20px;
+}
+.sneaker-heading > div{
+    width: 100%;
+}
+.sneaker-heading > div > h1{
+    font-size: 45px;
+    margin-top: -20px;
+}
+.grp-btn-sort{
+    display: flex;
+    float: right;
+    padding: 10px 0;
+}
+.sort-btn{
+    width: 150px;
+    border-radius: 6px;
+}
 
+
+        
 
 
 
@@ -746,7 +774,7 @@
   .slidercard .photo img{
     width: 100%;
     /* height: 70%; */
-    padding: 0px 10px;
+    padding: 0px 0px;
   }
 
   .btn-group-section{
