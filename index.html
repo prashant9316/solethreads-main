@@ -380,83 +380,6 @@
             </section>
 
 
-
-            <!-- <style>
-                .sneakers-heading {
-                    width: 100%;
-                    height: 10%;
-                    /* background: green; */
-                    display: flex;
-                    /* padding-bottom: 0vh; */
-                    align-items: center;
-                    justify-content: center;
-                }
-
-                .text-behind {
-                    /* background: red; */
-                    position: absolute;
-                    width: 100%;
-                    z-index: -1;
-                    text-align: center;
-                }
-
-                .text-behind h1 {
-                    font-size: 14vw;
-                    /* padding-bottom: 10vh; */
-                    font-weight: 800;
-                    font-style: italic;
-                    color: rgb(180, 178, 178);
-                    opacity: 0.4;
-                }
-            </style> -->
-
-            <!-- <section class="newArrivals-container" style="margin-top: -100px;">
-                <div class="swiper2">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide newArrivals-item">
-                            <a href="#" class="newArrivals-item__img-block">
-                                <img src="img/newArrivals-img1.png" alt="image">
-                            </a>
-                            <div class="newArrivals-item__text">
-                                <a href="#" class="newArrivals-text__name">Men's Trail Runner SWT</a>
-                                <p class="newArrivals-text__text">Classic Color, Natural Black</p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide newArrivals-item">
-                            <a href="#" class="newArrivals-item__img-block">
-                                <img src="img/newArrivals-img2.png" alt="image">
-                            </a>
-                            <div class="newArrivals-item__text">
-                                <a href="#" class="newArrivals-text__name">Women's Trail Runner SWT</a>
-                                <p class="newArrivals-text__text">Classic Color, Natural White</p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide newArrivals-item">
-                            <a href="#" class="newArrivals-item__img-block">
-                                <img src="img/newArrivals-img3.png" alt="image">
-                            </a>
-                            <div class="newArrivals-item__text newArrivals-text">
-                                <a href="#" class="newArrivals-text__name">Men's Trail Runner SWT</a>
-                                <p class="newArrivals-text__text">Limited Edition Color, Diablo</p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide newArrivals-item">
-                            <a href="#" class="newArrivals-item__img-block">
-                                <img src="img/newArrivals-img3.png" alt="image">
-                            </a>
-                            <div class="newArrivals-item__text">
-                                <a href="#" class="newArrivals-text__name">Men's Trail Runner SWT</a>
-                                <p class="newArrivals-text__text">Limited Edition Color, Diablo</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="title-seasons__btn-block btn-seasons" style="padding-top: 40px;">
-                    <a href="#" class="btn-main__btn mini-btn mini-btn_black" style="width: 35vw">Shop Men</a>
-                    <a href="#" class="btn-main__btn mini-btn mini-btn_black" style="width: 35vw">Shop Women</a>
-                </div>
-            </section> -->
-
             <section class="lookbook-section">
                 <div class="lookbook-heading">
                     <h1>Lookbook</h1>
@@ -602,6 +525,35 @@
                         </div>
                     </div>
                 </div>
+                <style>
+
+                    .product-desc{
+                        padding:0;
+                    }
+                    .product-desc > h2{
+                        font-size: 22px;
+                        font-weight: 500;
+                        padding-top: 8px;
+                        padding-left: 12px;
+                        padding-bottom: 33px;
+                        margin: 0;
+                    }
+                    .product-desc p {
+                        font-size: 12px;
+                        font-weight: 500;
+                    }
+                    
+                    @media screen and (max-width: 700) {
+                        .xyz .slidercard {
+                            height: 10%;
+                        }
+                        .slidercard .photo {
+                            max-height: 40% !important;
+                            overflow: hidden;
+                        }
+                    }
+                                
+                </style>
                 <div class=" btn-seasons btn-group-section">
                     <a href="#" class="btn-main__btn mini-btn mini-btn_black btn-shop-single">SHOP ALL MEN</a>
                 </div>
@@ -1796,10 +1748,19 @@
 
                 responsive: [
                     {
-                        breakpoint: 1024,
+                        breakpoint: 1100,
                         settings: {
                             slidesToShow: 3,
                             slidesToScroll: 3,
+                            infinite: true,
+                            dots: true
+                        }
+                    },
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2,
                             infinite: true,
                             dots: true
                         }
@@ -1817,7 +1778,15 @@
                             slidesToShow: 2,
                             slidesToScroll: 1
                         }
-                    }]
+                    },
+                    {
+                        breakpoint: 400,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
             })
         })
 
@@ -1854,7 +1823,8 @@
                     }
                 }]
         });
-
+        // var cw = $('.photo').width();
+        // $('.photo').css({'height':cw+'px'});
     </script>
 </body>
 

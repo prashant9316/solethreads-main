@@ -744,6 +744,7 @@
     height: 80% !important;
     background: rgb(255, 255, 255);
     display: flex;
+    padding: auto;
     align-items: center;
     justify-content: center;
   }
@@ -780,7 +781,8 @@
   .slidercard .photo img{
     width: 100%;
     /* height: 70%; */
-    padding: 0px 10px;
+    padding: 0px 0px;
+    margin: 0;
   }
 
   .btn-group-section{
@@ -908,7 +910,7 @@
   .lookbook-slider .efgh div{
     width: 100%;
     height: 100%;
-    padding: 0px 5px;
+    padding: 0px;
   }
   
   .lookbook-slider .efgh div img{
@@ -950,11 +952,17 @@
   
   .flipflopsmen-slider{
     width: 85%;
-    height: 65%;
+    height: 50%;
     display: block;
     margin: auto;
   }
   
+  @media screen and(max-width: 580px) {
+    .flipflopsmen-slider{
+      width: 100%;
+      height: 40%;
+    }
+  }
   .flipflopsmen-slider .ijkl{
     width: 100%;
     height: 100%;
@@ -973,7 +981,7 @@
   .ijkl .slidercard .photo img{
     width: 90%;
     /* height: 70%; */
-    padding: 0px 10px;
+    padding: 0px 0px;
   }
   .spacebottom{
     margin-bottom: 20px;

@@ -71,6 +71,12 @@ calc(20px + (32 - 20) * ((100vw - 768px) / (1024 - 768)));
     transition: color 0.3s ease, background-color 0.3s ease;
 }
 
+@media screen and (max-width: 580px) {
+    .mini-btn{
+        width: 40vw;
+    }
+}
+
 @media (any-hover: hover) {
     .mini-btn_white:hover {
         color: #000;
@@ -683,6 +689,8 @@ calc(20px + (32 - 20) * ((100vw - 768px) / (1024 - 768)));
 }
 .btn-seasons {
     display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     column-gap: 24px;
