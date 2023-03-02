@@ -135,10 +135,10 @@
                                     <option value="audi">Date, old to new</option>
                                     <option value="audi">Date, new to old</option>
                                   </select>
-                                  <div class="search-btn primary-bgcolor" style="display: flex;">
+                                  <!-- <div class="search-btn primary-bgcolor" style="display: flex;">
                                       <input type="text" name="search" id="search" placeholder="search here " style="position: absolute">
                                         <i class="fa fa-search" style="position: absolute;"></i>
-                                  </div>
+                                  </div> -->
                             </div>
                         </div>
                         <p class="text-muted">114 Items</p>
@@ -808,33 +808,47 @@
                         </div>
                     </div>
                 </div>
+
+                <section class="lookbook-section" style="width: 100vw; height: 90vh; left: 0; position: relative; height: 100vh; margin-left: -180px;">
+                    <div class="lookbook-heading">
+                      <!-- <h1>Lookbook</h1> -->
+                    </div>
+                    <div class="lookbook-slider">
+                      <div class="efgh">
+                        <div class="slidercard"><img class="first-img"
+                                src="./images/ref_imgs_poster/1e38d8cf54d56c09905830a88f5700b2.jpg">
+                        </div>
+                        <div class="slidercard"><img class="mid-img"
+                                src="./images/ref_imgs_poster/1cdd26b55d9e1fa2bdc651d329c39cfe.jpg">
+                        </div>
+                        <div class="slidercard"> <img class="last-img"
+                                src="./images/ref_imgs_poster/53d134f43435eb557bcc90c9b23973f0.jpg">
+                        </div>
+
+                        <div class="slidercard"><img class="first-img"
+                                src="./images/ref_imgs_poster/6b752464f0616eb0a8c5854f058161c6.jpg">
+                        </div>
+                        <div class="slidercard"><img class="mid-img"
+                                src="./images/ref_imgs_poster/b8e5bf1fecc38dae6bf698a5b66a6458.jpg">
+                        </div>
+                        <div class="slidercard"><img class="last-img"
+                                src="./images/ref_imgs_poster/329777406a84fc066b4360b68ddc28d6.jpg">
+                        </div>
+                    </div>
+                  </section>
+
                 <!-- START:  Block Products -->
                 <section class="halo-block halo-product-block" data-product-carousel data-item-to-show="4"
                     data-item-dots="false" data-item-arrows="true" data-item-dots-mb="true" data-item-arrows-mb="false">
                     
-                    <div class="container container-1170">
+                    <div class=" container-1170">
                         
                         <div class="category-product-header text-left">
                             <h3 class="title">
                                 <span class="text">Recently Viewed Products</span>
                             </h3>
                         </div>
-                        <section class="lookbook-section" style="width: 100vw; left: 0; position: relative; height: 100vh; margin-left: -180px;">
-                            <div class="lookbook-heading">
-                              <!-- <h1>Lookbook</h1> -->
-                            </div>
-                            <div class="lookbook-slider">
-                              <div class="efgh">
-                                <div class="slidercard"><img src="https://images.vegnonveg.com/resized/489X573/7559/as-m-nsw-tee-racing-open-black-63120b2964f53.jpg"></div>
-                                <div class="slidercard"><img src="https://images.vegnonveg.com/resized/489X573/7559/as-m-nsw-tee-racing-open-black-63120b2964f53.jpg"></div>
-                                <div class="slidercard"> <img src="https://images.vegnonveg.com/resized/489X573/7404/as-m-nsw-tee-fantasy-graphic-khaki-62d93d2727e30.jpg"></div>
-                          
-                                <div class="slidercard"><img src="https://images.vegnonveg.com/resized/489X573/8909/as-m-nsw-nike-air-ft-jogger-blackblack-63e47fa403189.jpg"></div>
-                                <div class="slidercard"><img src="https://images.vegnonveg.com/resized/489X573/7404/as-m-nsw-tee-fantasy-graphic-khaki-62d93d2727e30.jpg"></div>
-                                <div class="slidercard"><img src="https://images.vegnonveg.com/resized/489X573/8766/as-m-nsw-tee-ls-m90-fufr-summit-whiteaction-greenphantom5-63d8f7dbd67f7.jpg"></div>
-                                </div>
-                            </div>
-                          </section>
+                        
                           <style>
                             /* lookbook slider */
             
@@ -888,742 +902,178 @@
               /* background: brown; */
             }
             
-            .lookbook-slider .efgh div img{
-              width: 100%;
-              height: 100%;
-              padding: 0px 0px;
-            }
+            .lookbook-slider .efgh div .first-img {
+                            width: 100%;
+                            height: 100%;
+                            padding-right: 10px;
+                            padding-left: 0px;
+                        }
+                        .lookbook-slider .efgh div .mid-img {
+                            width: 100%;
+                            height: 100%;
+                            padding: 0px 5px;
+                        }
+                        .lookbook-slider .efgh div .last-img {
+                            width: 100%;
+                            height: 100%;
+                            padding-right: 0px;
+                            padding-left: 10px;
+                        }
+                        @media screen and (max-width: 600px) {
+                            .lookbook-slider .efgh div .first-img {
+                                padding-left: 0px;
+                                padding-right: 0px;
+                            }
+                            .lookbook-slider .efgh div .mid-img{
+                                padding-left: 0px;
+                                padding-right: 0px;
+                            }
+                            .lookbook-slider .efgh div .last-img{
+                                padding-left: 0px;
+                                padding-right: 0px;
+                            }
+                        }
             
             
             
                           </style>
 
-<div class="halo-row-item grid-item col-6 col-md-4" style="padding-bottom: 75px;">
-    
-</div>
+
             
-                        <div class="halo-block-content product-carousel">
-                            <div class="row">
-                                <div class="product-item col-6 col-md-4 col-lg-3">
-                                    <div class="product-card">
-                                        <div class="product-card-top">
-                                            <div class="product-card-media">
-                                                <a href="#" class="animate-scale image image-adapt"
-                                                    style="padding-bottom: 133.33333333333334%">
-                                                    <img src="./assets/images/card-product/img-1.jpg"
-                                                        alt="Halo Product">
-                                                    <img src="./assets/images/card-product/img-2.jpg"
-                                                        alt="Halo Product">
-                                                </a>
-                                                <div class="card-product__group group-right">
-                                                    <div class="card-product__group-item card-wishlist">
-                                                        <a class="card-icon wishlist-icon" href="#" data-wishlist=""
-                                                            data-wishlist-handle="naminos-dementus-a-dincidunto-1"
-                                                            data-product-id="6617631162458" tabindex="0">
-                                                            <span class="visually-hidden">Add to wishlist</span>
-                                                            <span class="text">
-                                                                Add to wishlist
-                                                            </span>
-                                                            <svg viewBox="0 0 512 512" class="icon icon-wishlist">
-                                                                <g>
-                                                                    <g>
-                                                                        <path d="M474.644,74.27C449.391,45.616,414.358,29.836,376,29.836c-53.948,0-88.103,32.22-107.255,59.25
-                                                                c-4.969,7.014-9.196,14.047-12.745,20.665c-3.549-6.618-7.775-13.651-12.745-20.665c-19.152-27.03-53.307-59.25-107.255-59.25
-                                                                c-38.358,0-73.391,15.781-98.645,44.435C13.267,101.605,0,138.213,0,177.351c0,42.603,16.633,82.228,52.345,124.7
-                                                                c31.917,37.96,77.834,77.088,131.005,122.397c19.813,16.884,40.302,34.344,62.115,53.429l0.655,0.574
-                                                                c2.828,2.476,6.354,3.713,9.88,3.713s7.052-1.238,9.88-3.713l0.655-0.574c21.813-19.085,42.302-36.544,62.118-53.431
-                                                                c53.168-45.306,99.085-84.434,131.002-122.395C495.367,259.578,512,219.954,512,177.351
-                                                                C512,138.213,498.733,101.605,474.644,74.27z M309.193,401.614c-17.08,14.554-34.658,29.533-53.193,45.646
-                                                                c-18.534-16.111-36.113-31.091-53.196-45.648C98.745,312.939,30,254.358,30,177.351c0-31.83,10.605-61.394,29.862-83.245
-                                                                C79.34,72.007,106.379,59.836,136,59.836c41.129,0,67.716,25.338,82.776,46.594c13.509,19.064,20.558,38.282,22.962,45.659
-                                                                c2.011,6.175,7.768,10.354,14.262,10.354c6.494,0,12.251-4.179,14.262-10.354c2.404-7.377,9.453-26.595,22.962-45.66
-                                                                c15.06-21.255,41.647-46.593,82.776-46.593c29.621,0,56.66,12.171,76.137,34.27C471.395,115.957,482,145.521,482,177.351
-                                                                C482,254.358,413.255,312.939,309.193,401.614z"></path>
-                                                                    </g>
-                                                                </g>
+<section class="relatedProduct" style="margin-top: 120vh; width: 80%; display: block; justify-content: center; align-items: center; margin-left: 100px;">
+    <div class="relatedProductsHead">
+        <h1 style="color: #575757; font-size: 30px; font-weight: 700;">Related Products</h1>
+    </div>
+    <div class="sneakers-slider">
+        <div class="xyz">
+            <div class="slidercard">
+                <div class="product-photo">
+                    <img src="./images/Product_Pngs/IMG_5161__1_-removebg-preview.png">
+                </div>
+                <div class="pro-desc">
+                    <h2>Root'd</h2>
+                    <p>Rs.2500.00</p>
+                </div>
+            </div>
+            <div class="slidercard">
+                <div class="product-photo">
+                    <img src="./images/Product_Pngs/IMG_6306__1_-removebg-preview.png">
+                </div>
+                <div class="pro-desc">
+                    <h2>Root'd</h2>
+                    <p>Rs.2500.00</p>
+                </div>
+            </div>
+            <div class="slidercard">
+                <div class="product-photo">
+                    <img src="./images/Product_Pngs/IMG_6333__1_-removebg-preview-removebg-preview.png">
+                </div>
+                <div class="pro-desc">
+                    <h2>Root'd</h2>
+                    <p>Rs.2500.00</p>
+                </div>
+            </div>
+            <div class="slidercard">
+                <div class="product-photo">
+                    <img src="./images/Product_Pngs/IMG_5161__1_-removebg-preview.png">
+                </div>
+                <div class="pro-desc">
+                    <h2>Root'd</h2>
+                    <p>Rs.2500.00</p>
+                </div>
+            </div>
+            <div class="slidercard">
+                <div class="product-photo">
+                    <img src="./images/Product_Pngs/IMG_6333__1_-removebg-preview-removebg-preview.png">
+                </div>
+                <div class="pro-desc">
+                    <h2>Root'd</h2>
+                    <p>Rs.2500.00</p>
+                </div>
+            </div>
+            <div class="slidercard">
+                <div class="product-photo">
+                    <img src="./images/Product_Pngs/IMG_6306__1_-removebg-preview.png">
+                </div>
+                <div class="pro-desc">
+                    <h2>Root'd</h2>
+                    <p>Rs.2500.00</p>
+                </div>
+            </div>
+            <div class="slidercard">
+                <div class="product-photo">
+                    <img src="./images/Product_Pngs/IMG_5161__1_-removebg-preview.png">
+                </div>
+                <div class="pro-desc">
+                    <h2>Root'd</h2>
+                    <p>Rs.2500.00</p>
+                </div>
+            </div>
+            <div class="slidercard">
+                <div class="product-photo">
+                    <img src="./images/Product_Pngs/IMG_6333__1_-removebg-preview-removebg-preview.png">
+                </div>
+                <div class="pro-desc">
+                    <h2>Root'd</h2>
+                    <p>Rs.2500.00</p>
+                </div>
+            </div>
+        </div>
+        
+        <style>
+            .relatedProduct{
+                margin-top: 58px;
+            }
+            .sneakers-slider{
+                padding-top: 30px;
+                width: 100%;
+                margin: auto;
+                display: block;
+            }
+            .pro-desc{
+                padding: 0;
+            }
+            .pro-desc > h2{
+                font-size: 15px;
+                font-weight: 300;
+                padding-bottom: 2px;
+                padding-top: 8px;
+                margin: 0;
+            }
+            .pro-desc > p {
+                font-size: 12px;
+                font-weight: 700;
+                padding-top: 0!important;
+                margin: 0;
+            }
+            .product-photo{
+                /* box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25); */
+                padding: 0px 0px;
+                text-align: center;
+                justify-content: center;
+                border: solid 1px rgb(204, 204, 204);
+                /* margin: 10px; */
+                /* background-color: red; */
+            }
+           
+            .xyz .slidercard{
+            /* box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25); */
+            box-shadow: none!important;
+            height: 100% !important;
+            padding: 0 15px; 
+            /* margin: 0px 10px; */
+            /* box-shadow: 0px 0px 5px grey !important; */
+            }
+            .sneakers-slider .xyz, .lookbook-slider .efgh{
+                width: 100%;
+                height: 100%;
+                /* background: yellow; */
+            }
 
-                                                            </svg>
-                                                        </a>
-                                                    </div>
-                                                    
-                                                </div>
-                                                
-                                            </div>
-                                        </div>
-                                        <div class="product-card-bottom">
-                                            <div class="product-card-information text-center">
-                                                <div class="card-vendor uppercase">
-                                                    <a href="#" title="Anna" tabindex="0">Anna</a>
-                                                </div>
-                                                <a href="#" class="card-title link-underline card-title-ellipsis">
-                                                    <span class="text">Naminos Lorem A Dincidunto<span
-                                                            data-change-title> - Blue</span></span>
-                                                </a>
-                                                <div class="card-price">
-                                                    <div class="price-item">
-                                                        <span class="money">$89.00 - $139.00</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="card-swatch text-center clearfix">
-                                                <ul class="swatch list-unstyled">
-                                                    <li class="item">
-                                                        <label class="swatch-label is-active" data-value="Blue"
-                                                            data-variant-id>
-                                                            <span class="pattern" style="background-color: #4b6cc0">
-                                                            </span>
-                                                        </label>
-                                                    </li>
-                                                    <li class="item">
-                                                        <label class="swatch-label" data-value="black" data-variant-id>
-                                                            <span class="pattern" style="background-color: black">
-                                                            </span>
-                                                        </label>
-                                                    </li>
-                                                    <li class="item">
-                                                        <label class="swatch-label" data-value="Green" data-variant-id>
-                                                            <span class="pattern"
-                                                                style="background-color: mediumseagreen">
-                                                            </span>
-                                                        </label>
-                                                    </li>
-                                                    <li class="item">
-                                                        <label class="swatch-label" data-value="Orange" data-variant-id>
-                                                            <span class="pattern" style="background-color: moccasin">
-                                                            </span>
-                                                        </label>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="product-item col-6 col-md-4 col-lg-3">
-                                    <div class="product-card">
-                                        <div class="product-card-top">
-                                            <div class="card__badge badge-left">
-                                                <span class="badge sale-badge" aria-hidden="true">Sale</span>
-                                                <span class="badge custom-badge" aria-hidden="true">Must Have</span>
-                                            </div>
-                                            <div class="product-card-media">
-                                                <a href="#" class="animate-scale image image-adapt"
-                                                    style="padding-bottom: 133.33333333333334%">
-                                                    <img src="./assets/images/card-product/img-7.jpg"
-                                                        alt="Halo Product">
-                                                    <img src="./assets/images/card-product/img-8.jpg"
-                                                        alt="Halo Product">
-                                                </a>
-                                                <div class="card-product__group group-right">
-                                                    <div class="card-product__group-item card-wishlist">
-                                                        <a class="card-icon wishlist-icon" href="#" data-wishlist=""
-                                                            data-wishlist-handle="naminos-dementus-a-dincidunto-1"
-                                                            data-product-id="6617631162458" tabindex="0">
-                                                            <span class="visually-hidden">Add to wishlist</span>
-                                                            <span class="text">
-                                                                Add to wishlist
-                                                            </span>
-                                                            <svg viewBox="0 0 512 512" class="icon icon-wishlist">
-                                                                <g>
-                                                                    <g>
-                                                                        <path d="M474.644,74.27C449.391,45.616,414.358,29.836,376,29.836c-53.948,0-88.103,32.22-107.255,59.25
-                                                                c-4.969,7.014-9.196,14.047-12.745,20.665c-3.549-6.618-7.775-13.651-12.745-20.665c-19.152-27.03-53.307-59.25-107.255-59.25
-                                                                c-38.358,0-73.391,15.781-98.645,44.435C13.267,101.605,0,138.213,0,177.351c0,42.603,16.633,82.228,52.345,124.7
-                                                                c31.917,37.96,77.834,77.088,131.005,122.397c19.813,16.884,40.302,34.344,62.115,53.429l0.655,0.574
-                                                                c2.828,2.476,6.354,3.713,9.88,3.713s7.052-1.238,9.88-3.713l0.655-0.574c21.813-19.085,42.302-36.544,62.118-53.431
-                                                                c53.168-45.306,99.085-84.434,131.002-122.395C495.367,259.578,512,219.954,512,177.351
-                                                                C512,138.213,498.733,101.605,474.644,74.27z M309.193,401.614c-17.08,14.554-34.658,29.533-53.193,45.646
-                                                                c-18.534-16.111-36.113-31.091-53.196-45.648C98.745,312.939,30,254.358,30,177.351c0-31.83,10.605-61.394,29.862-83.245
-                                                                C79.34,72.007,106.379,59.836,136,59.836c41.129,0,67.716,25.338,82.776,46.594c13.509,19.064,20.558,38.282,22.962,45.659
-                                                                c2.011,6.175,7.768,10.354,14.262,10.354c6.494,0,12.251-4.179,14.262-10.354c2.404-7.377,9.453-26.595,22.962-45.66
-                                                                c15.06-21.255,41.647-46.593,82.776-46.593c29.621,0,56.66,12.171,76.137,34.27C471.395,115.957,482,145.521,482,177.351
-                                                                C482,254.358,413.255,312.939,309.193,401.614z"></path>
-                                                                    </g>
-                                                                </g>
-                                                            </svg>
-                                                        </a>
-                                                    </div>
-                                                    <div
-                                                        class="card-product__group-item card-quickview card-quickviewIcon">
-                                                        <a class="card-icon quickview-icon" href="javascript:void(0)"
-                                                            data-product-id="" data-open-quick-view-popup=""
-                                                            data-product-handle="" tabindex="0">
-                                                            <span class="visually-hidden">Quick View</span>
-                                                            <span class="text">Quick View</span>
-                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                viewBox="0 0 511.999 511.999" aria-hidden="true"
-                                                                focusable="false" role="presentation"
-                                                                class="icon icon-eyes">
-                                                                <path d="M508.745,246.041c-4.574-6.257-113.557-153.206-252.748-153.206S7.818,239.784,3.249,246.035
-                                                                    c-4.332,5.936-4.332,13.987,0,19.923c4.569,6.257,113.557,153.206,252.748,153.206s248.174-146.95,252.748-153.201
-                                                                    C513.083,260.028,513.083,251.971,508.745,246.041z M255.997,385.406c-102.529,0-191.33-97.533-217.617-129.418
-                                                                    c26.253-31.913,114.868-129.395,217.617-129.395c102.524,0,191.319,97.516,217.617,129.418
-                                                                    C447.361,287.923,358.746,385.406,255.997,385.406z">
-                                                                </path>
-                                                                <path
-                                                                    d="M255.997,154.725c-55.842,0-101.275,45.433-101.275,101.275s45.433,101.275,101.275,101.275
-                                                                    s101.275-45.433,101.275-101.275S311.839,154.725,255.997,154.725z M255.997,323.516c-37.23,0-67.516-30.287-67.516-67.516
-                                                                    s30.287-67.516,67.516-67.516s67.516,30.287,67.516,67.516S293.227,323.516,255.997,323.516z">
-                                                                </path>
-                                                            </svg>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                                <!-- <div class="card-action">
-                                                    <form action="/cart/add" method="post" class="variants"
-                                                        data-product-id="" enctype="multipart/form-data">
-                                                        <a class="button button-ATC text-center"
-                                                            href="javascript:void(0)" data-quickshop-popup="">Add To
-                                                            Cart</a>
-                                                    </form>
-                                                </div> -->
-                                            </div>
-                                        </div>
-                                        <div class="product-card-bottom">
-                                            <div class="product-card-information text-center">
-                                                <div class="card-vendor uppercase">
-                                                    <a href="#" title="Anna" tabindex="0">Benjamin Button</a>
-                                                </div>
-                                                <a href="#" class="card-title link-underline card-title-ellipsis">
-                                                    <span class="text">Dinterdum Pretium Condimento<span
-                                                            data-change-title> - Blue</span></span>
-                                                </a>
-                                                <div class="card-price price__sale">
-                                                    <div class="price-item price-item--regular">
-                                                        <span class="money ">$86.00</span>
-                                                    </div>
-                                                    <div class="price-item price__last">
-                                                        <span class="money ">$68.80</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="card-swatch text-center clearfix">
-                                                <ul class="swatch list-unstyled">
-                                                    <li class="item">
-                                                        <label class="swatch-label is-active" data-value="Blue"
-                                                            data-variant-id>
-                                                            <span class="pattern"
-                                                                style="background-color: #4b6cc0"></span>
-                                                        </label>
-                                                    </li>
-                                                    <li class="item">
-                                                        <label class="swatch-label" data-value="Green" data-variant-id>
-                                                            <span class="pattern"
-                                                                style="background-color: Green"></span>
-                                                        </label>
-                                                    </li>
-                                                    <li class="item">
-                                                        <label class="swatch-label" data-value="black" data-variant-id>
-                                                            <span class="pattern"
-                                                                style="background-color: black"></span>
-                                                        </label>
-                                                    </li>
-                                                    <li class="item">
-                                                        <label class="swatch-label" data-value="Orange" data-variant-id>
-                                                            <span class="pattern"
-                                                                style="background-color: moccasin"></span>
-                                                        </label>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="product-item col-6 col-md-4 col-lg-3">
-                                    <div class="product-card">
-                                        <div class="product-card-top">
-                                            <div class="card__badge badge-left">
-                                                <span class="badge sold-out-badge" aria-hidden="true">Sold out</span>
-                                            </div>
-                                            <div class="product-card-media">
-                                                <a href="#" class="animate-scale image image-adapt"
-                                                    style="padding-bottom: 133.33333333333334%">
-                                                    <img src="./assets/images/card-product/img-5.jpg"
-                                                        alt="Halo Product">
-                                                    <img src="./assets/images/card-product/img-6.jpg"
-                                                        alt="Halo Product">
-                                                </a>
-                                                <div class="card-product__group group-right">
-                                                    <div class="card-product__group-item card-wishlist">
-                                                        <a class="card-icon wishlist-icon" href="#" data-wishlist=""
-                                                            data-wishlist-handle="naminos-dementus-a-dincidunto-1"
-                                                            data-product-id="6617631162458" tabindex="0">
-                                                            <span class="visually-hidden">Add to wishlist</span>
-                                                            <span class="text">
-                                                                Add to wishlist
-                                                            </span>
-                                                            <svg viewBox="0 0 512 512" class="icon icon-wishlist">
-                                                                <g>
-                                                                    <g>
-                                                                        <path d="M474.644,74.27C449.391,45.616,414.358,29.836,376,29.836c-53.948,0-88.103,32.22-107.255,59.25
-                                                                c-4.969,7.014-9.196,14.047-12.745,20.665c-3.549-6.618-7.775-13.651-12.745-20.665c-19.152-27.03-53.307-59.25-107.255-59.25
-                                                                c-38.358,0-73.391,15.781-98.645,44.435C13.267,101.605,0,138.213,0,177.351c0,42.603,16.633,82.228,52.345,124.7
-                                                                c31.917,37.96,77.834,77.088,131.005,122.397c19.813,16.884,40.302,34.344,62.115,53.429l0.655,0.574
-                                                                c2.828,2.476,6.354,3.713,9.88,3.713s7.052-1.238,9.88-3.713l0.655-0.574c21.813-19.085,42.302-36.544,62.118-53.431
-                                                                c53.168-45.306,99.085-84.434,131.002-122.395C495.367,259.578,512,219.954,512,177.351
-                                                                C512,138.213,498.733,101.605,474.644,74.27z M309.193,401.614c-17.08,14.554-34.658,29.533-53.193,45.646
-                                                                c-18.534-16.111-36.113-31.091-53.196-45.648C98.745,312.939,30,254.358,30,177.351c0-31.83,10.605-61.394,29.862-83.245
-                                                                C79.34,72.007,106.379,59.836,136,59.836c41.129,0,67.716,25.338,82.776,46.594c13.509,19.064,20.558,38.282,22.962,45.659
-                                                                c2.011,6.175,7.768,10.354,14.262,10.354c6.494,0,12.251-4.179,14.262-10.354c2.404-7.377,9.453-26.595,22.962-45.66
-                                                                c15.06-21.255,41.647-46.593,82.776-46.593c29.621,0,56.66,12.171,76.137,34.27C471.395,115.957,482,145.521,482,177.351
-                                                                C482,254.358,413.255,312.939,309.193,401.614z"></path>
-                                                                    </g>
-                                                                </g>
-                                                            </svg>
-                                                        </a>
-                                                    </div>
-                                                    <div
-                                                        class="card-product__group-item card-quickview card-quickviewIcon">
-                                                        <a class="card-icon quickview-icon" href="javascript:void(0)"
-                                                            data-product-id="" data-open-quick-view-popup=""
-                                                            data-product-handle="" tabindex="0">
-                                                            <span class="visually-hidden">Quick View</span>
-                                                            <span class="text">Quick View</span>
-                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                viewBox="0 0 511.999 511.999" aria-hidden="true"
-                                                                focusable="false" role="presentation"
-                                                                class="icon icon-eyes">
-                                                                <path d="M508.745,246.041c-4.574-6.257-113.557-153.206-252.748-153.206S7.818,239.784,3.249,246.035
-                                                                    c-4.332,5.936-4.332,13.987,0,19.923c4.569,6.257,113.557,153.206,252.748,153.206s248.174-146.95,252.748-153.201
-                                                                    C513.083,260.028,513.083,251.971,508.745,246.041z M255.997,385.406c-102.529,0-191.33-97.533-217.617-129.418
-                                                                    c26.253-31.913,114.868-129.395,217.617-129.395c102.524,0,191.319,97.516,217.617,129.418
-                                                                    C447.361,287.923,358.746,385.406,255.997,385.406z">
-                                                                </path>
-                                                                <path
-                                                                    d="M255.997,154.725c-55.842,0-101.275,45.433-101.275,101.275s45.433,101.275,101.275,101.275
-                                                                    s101.275-45.433,101.275-101.275S311.839,154.725,255.997,154.725z M255.997,323.516c-37.23,0-67.516-30.287-67.516-67.516
-                                                                    s30.287-67.516,67.516-67.516s67.516,30.287,67.516,67.516S293.227,323.516,255.997,323.516z">
-                                                                </path>
-                                                            </svg>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                                <div class="card-action">
-                                                    <form action="/cart/add" method="post" class="variants"
-                                                        data-product-id="" enctype="multipart/form-data">
-                                                        <a class="button button-ATC is-notify-me text-center" href="#"
-                                                            data-btn-addtocart="">Notify me</a>
-                                                    </form>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="product-card-bottom">
-                                            <div class="product-card-information text-center">
-                                                <div class="card-vendor uppercase">
-                                                    <a href="#" title="Anna" tabindex="0">Burberry</a>
-                                                </div>
-                                                <a href="#" class="card-title link-underline card-title-ellipsis">
-                                                    <span class="text">Magnis Darturien Meros Laciniado<span
-                                                            data-change-title> - Green</span></span>
-                                                </a>
-                                                <div class="card-price">
-                                                    <div class="price-item">
-                                                        <span class="money">$89.00 - $139.00</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="card-swatch text-center clearfix">
-                                                <ul class="swatch list-unstyled">
-                                                    <li class="item">
-                                                        <label class="swatch-label is-active" data-value="Green"
-                                                            data-variant-id>
-                                                            <span class="pattern"
-                                                                style="background-color: mediumseagreen"></span>
-                                                        </label>
-                                                    </li>
+        </style>
+    </div>
+</section>
 
-                                                    <li class="item">
-                                                        <label class="swatch-label" data-value="black" data-variant-id>
-                                                            <span class="pattern"
-                                                                style="background-color: black"></span>
-                                                        </label>
-                                                    </li>
-                                                    <li class="item">
-                                                        <label class="swatch-label" data-value="Orange" data-variant-id>
-                                                            <span class="pattern"
-                                                                style="background-color: moccasin"></span>
-                                                        </label>
-                                                    </li>
-                                                    <li class="item">
-                                                        <label class="swatch-label" data-value="Blue" data-variant-id>
-                                                            <span class="pattern"
-                                                                style="background-color: #4b6cc0"></span>
-                                                        </label>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="product-item col-6 col-md-4 col-lg-3">
-                                    <div class="product-card">
-                                        <div class="product-card-top">
-                                            <div class="product-card-media">
-                                                <a href="#" class="animate-scale image image-adapt"
-                                                    style="padding-bottom: 133.33333333333334%">
-                                                    <img src="./assets/images/card-product/img-9.jpg"
-                                                        alt="Halo Product">
-                                                    <img src="./assets/images/card-product/img-10.jpg"
-                                                        alt="Halo Product">
-                                                </a>
-                                                <div class="card-product__group group-right">
-                                                    <div class="card-product__group-item card-wishlist">
-                                                        <a class="card-icon wishlist-icon" href="#" data-wishlist=""
-                                                            data-wishlist-handle="naminos-dementus-a-dincidunto-1"
-                                                            data-product-id="6617631162458" tabindex="0">
-                                                            <span class="visually-hidden">Add to wishlist</span>
-                                                            <span class="text">
-                                                                Add to wishlist
-                                                            </span>
-                                                            <svg viewBox="0 0 512 512" class="icon icon-wishlist">
-                                                                <g>
-                                                                    <g>
-                                                                        <path d="M474.644,74.27C449.391,45.616,414.358,29.836,376,29.836c-53.948,0-88.103,32.22-107.255,59.25
-                                                                c-4.969,7.014-9.196,14.047-12.745,20.665c-3.549-6.618-7.775-13.651-12.745-20.665c-19.152-27.03-53.307-59.25-107.255-59.25
-                                                                c-38.358,0-73.391,15.781-98.645,44.435C13.267,101.605,0,138.213,0,177.351c0,42.603,16.633,82.228,52.345,124.7
-                                                                c31.917,37.96,77.834,77.088,131.005,122.397c19.813,16.884,40.302,34.344,62.115,53.429l0.655,0.574
-                                                                c2.828,2.476,6.354,3.713,9.88,3.713s7.052-1.238,9.88-3.713l0.655-0.574c21.813-19.085,42.302-36.544,62.118-53.431
-                                                                c53.168-45.306,99.085-84.434,131.002-122.395C495.367,259.578,512,219.954,512,177.351
-                                                                C512,138.213,498.733,101.605,474.644,74.27z M309.193,401.614c-17.08,14.554-34.658,29.533-53.193,45.646
-                                                                c-18.534-16.111-36.113-31.091-53.196-45.648C98.745,312.939,30,254.358,30,177.351c0-31.83,10.605-61.394,29.862-83.245
-                                                                C79.34,72.007,106.379,59.836,136,59.836c41.129,0,67.716,25.338,82.776,46.594c13.509,19.064,20.558,38.282,22.962,45.659
-                                                                c2.011,6.175,7.768,10.354,14.262,10.354c6.494,0,12.251-4.179,14.262-10.354c2.404-7.377,9.453-26.595,22.962-45.66
-                                                                c15.06-21.255,41.647-46.593,82.776-46.593c29.621,0,56.66,12.171,76.137,34.27C471.395,115.957,482,145.521,482,177.351
-                                                                C482,254.358,413.255,312.939,309.193,401.614z"></path>
-                                                                    </g>
-                                                                </g>
-
-                                                            </svg>
-                                                        </a>
-                                                    </div>
-                                                    <div
-                                                        class="card-product__group-item card-quickview card-quickviewIcon">
-                                                        <a class="card-icon quickview-icon" href="javascript:void(0)"
-                                                            data-product-id="" data-open-quick-view-popup=""
-                                                            data-product-handle="" tabindex="0">
-                                                            <span class="visually-hidden">Quick View</span>
-                                                            <span class="text">Quick View</span>
-                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                viewBox="0 0 511.999 511.999" aria-hidden="true"
-                                                                focusable="false" role="presentation"
-                                                                class="icon icon-eyes">
-                                                                <path d="M508.745,246.041c-4.574-6.257-113.557-153.206-252.748-153.206S7.818,239.784,3.249,246.035
-                                                                    c-4.332,5.936-4.332,13.987,0,19.923c4.569,6.257,113.557,153.206,252.748,153.206s248.174-146.95,252.748-153.201
-                                                                    C513.083,260.028,513.083,251.971,508.745,246.041z M255.997,385.406c-102.529,0-191.33-97.533-217.617-129.418
-                                                                    c26.253-31.913,114.868-129.395,217.617-129.395c102.524,0,191.319,97.516,217.617,129.418
-                                                                    C447.361,287.923,358.746,385.406,255.997,385.406z">
-                                                                </path>
-                                                                <path
-                                                                    d="M255.997,154.725c-55.842,0-101.275,45.433-101.275,101.275s45.433,101.275,101.275,101.275
-                                                                    s101.275-45.433,101.275-101.275S311.839,154.725,255.997,154.725z M255.997,323.516c-37.23,0-67.516-30.287-67.516-67.516
-                                                                    s30.287-67.516,67.516-67.516s67.516,30.287,67.516,67.516S293.227,323.516,255.997,323.516z">
-                                                                </path>
-                                                            </svg>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                                <div class="card-action">
-                                                    <form action="/cart/add" method="post" class="variants"
-                                                        data-product-id="" enctype="multipart/form-data">
-                                                        <a class="button button-ATC text-center"
-                                                            href="javascript:void(0)" data-quickshop-popup="">Add To
-                                                            Cart</a>
-                                                    </form>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="product-card-bottom">
-                                            <div class="product-card-information text-center">
-                                                <div class="card-vendor uppercase">
-                                                    <a href="#" title="Anna" tabindex="0">Daventry Meers
-                                                    </a>
-                                                </div>
-                                                <a href="#" class="card-title link-underline card-title-ellipsis">
-                                                    <span class="text">Loremous Saliduar A Cosmopolis<span
-                                                            data-change-title> - Black</span></span>
-                                                </a>
-                                                <div class="card-price">
-                                                    <div class="price-item">
-                                                        <span class="money">$286.00</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="card-swatch text-center clearfix">
-                                                <ul class="swatch list-unstyled">
-                                                    <li class="item">
-                                                        <label class="swatch-label is-active" data-value="black"
-                                                            data-variant-id>
-                                                            <span class="pattern" style="background-color: black">
-                                                            </span>
-                                                        </label>
-                                                    </li>
-                                                    <li class="item">
-                                                        <label class="swatch-label" data-value="Blue" data-variant-id>
-                                                            <span class="pattern" style="background-color: #4b6cc0">
-                                                            </span>
-                                                        </label>
-                                                    </li>
-
-                                                    <li class="item">
-                                                        <label class="swatch-label" data-value="Green" data-variant-id>
-                                                            <span class="pattern"
-                                                                style="background-color: mediumseagreen">
-                                                            </span>
-                                                        </label>
-                                                    </li>
-                                                    <li class="item">
-                                                        <label class="swatch-label" data-value="Orange" data-variant-id>
-                                                            <span class="pattern" style="background-color: moccasin">
-                                                            </span>
-                                                        </label>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="product-item col-6 col-md-4 col-lg-3">
-                                    <div class="product-card">
-                                        <div class="product-card-top">
-                                            <div class="card__badge badge-left">
-                                                <span class="badge sale-badge" aria-hidden="true">Sale</span>
-                                                <span class="badge custom-badge" aria-hidden="true">Must Have</span>
-                                            </div>
-                                            <div class="product-card-media">
-                                                <a href="#" class="animate-scale image image-adapt"
-                                                    style="padding-bottom: 133.33333333333334%">
-                                                    <img src="./assets/images/card-product/img-18.jpg"
-                                                        alt="Halo Product">
-                                                    <img src="./assets/images/card-product/img-17.jpg"
-                                                        alt="Halo Product">
-                                                </a>
-                                                <div class="card-product__group group-right">
-                                                    <div class="card-product__group-item card-wishlist">
-                                                        <a class="card-icon wishlist-icon" href="#" data-wishlist=""
-                                                            data-wishlist-handle="naminos-dementus-a-dincidunto-1"
-                                                            data-product-id="6617631162458" tabindex="0">
-                                                            <span class="visually-hidden">Add to wishlist</span>
-                                                            <span class="text">
-                                                                Add to wishlist
-                                                            </span>
-                                                            <svg viewBox="0 0 512 512" class="icon icon-wishlist">
-                                                                <g>
-                                                                    <g>
-                                                                        <path d="M474.644,74.27C449.391,45.616,414.358,29.836,376,29.836c-53.948,0-88.103,32.22-107.255,59.25
-                                                                    c-4.969,7.014-9.196,14.047-12.745,20.665c-3.549-6.618-7.775-13.651-12.745-20.665c-19.152-27.03-53.307-59.25-107.255-59.25
-                                                                    c-38.358,0-73.391,15.781-98.645,44.435C13.267,101.605,0,138.213,0,177.351c0,42.603,16.633,82.228,52.345,124.7
-                                                                    c31.917,37.96,77.834,77.088,131.005,122.397c19.813,16.884,40.302,34.344,62.115,53.429l0.655,0.574
-                                                                    c2.828,2.476,6.354,3.713,9.88,3.713s7.052-1.238,9.88-3.713l0.655-0.574c21.813-19.085,42.302-36.544,62.118-53.431
-                                                                    c53.168-45.306,99.085-84.434,131.002-122.395C495.367,259.578,512,219.954,512,177.351
-                                                                    C512,138.213,498.733,101.605,474.644,74.27z M309.193,401.614c-17.08,14.554-34.658,29.533-53.193,45.646
-                                                                    c-18.534-16.111-36.113-31.091-53.196-45.648C98.745,312.939,30,254.358,30,177.351c0-31.83,10.605-61.394,29.862-83.245
-                                                                    C79.34,72.007,106.379,59.836,136,59.836c41.129,0,67.716,25.338,82.776,46.594c13.509,19.064,20.558,38.282,22.962,45.659
-                                                                    c2.011,6.175,7.768,10.354,14.262,10.354c6.494,0,12.251-4.179,14.262-10.354c2.404-7.377,9.453-26.595,22.962-45.66
-                                                                    c15.06-21.255,41.647-46.593,82.776-46.593c29.621,0,56.66,12.171,76.137,34.27C471.395,115.957,482,145.521,482,177.351
-                                                                    C482,254.358,413.255,312.939,309.193,401.614z">
-                                                                        </path>
-                                                                    </g>
-                                                                </g>
-                                                            </svg>
-                                                        </a>
-                                                    </div>
-                                                    <div
-                                                        class="card-product__group-item card-quickview card-quickviewIcon">
-                                                        <a class="card-icon quickview-icon" href="javascript:void(0)"
-                                                            data-product-id="" data-open-quick-view-popup=""
-                                                            data-product-handle="" tabindex="0">
-                                                            <span class="visually-hidden">Quick View</span>
-                                                            <span class="text">Quick View</span>
-                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                viewBox="0 0 511.999 511.999" aria-hidden="true"
-                                                                focusable="false" role="presentation"
-                                                                class="icon icon-eyes">
-                                                                <path d="M508.745,246.041c-4.574-6.257-113.557-153.206-252.748-153.206S7.818,239.784,3.249,246.035
-                                                                    c-4.332,5.936-4.332,13.987,0,19.923c4.569,6.257,113.557,153.206,252.748,153.206s248.174-146.95,252.748-153.201
-                                                                    C513.083,260.028,513.083,251.971,508.745,246.041z M255.997,385.406c-102.529,0-191.33-97.533-217.617-129.418
-                                                                    c26.253-31.913,114.868-129.395,217.617-129.395c102.524,0,191.319,97.516,217.617,129.418
-                                                                    C447.361,287.923,358.746,385.406,255.997,385.406z">
-                                                                </path>
-                                                                <path
-                                                                    d="M255.997,154.725c-55.842,0-101.275,45.433-101.275,101.275s45.433,101.275,101.275,101.275
-                                                                    s101.275-45.433,101.275-101.275S311.839,154.725,255.997,154.725z M255.997,323.516c-37.23,0-67.516-30.287-67.516-67.516
-                                                                    s30.287-67.516,67.516-67.516s67.516,30.287,67.516,67.516S293.227,323.516,255.997,323.516z">
-                                                                </path>
-                                                            </svg>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                                <!-- <div class="card-action">
-                                                    <form action="/cart/add" method="post" class="variants"
-                                                        data-product-id="" enctype="multipart/form-data">
-                                                        <a class="button button-ATC text-center"
-                                                            href="javascript:void(0)" data-quickshop-popup="">Add To
-                                                            Cart</a>
-                                                    </form>
-                                                </div> -->
-                                            </div>
-                                        </div>
-                                        <div class="product-card-bottom">
-                                            <div class="product-card-information text-center">
-                                                <div class="card-vendor uppercase">
-                                                    <a href="#" title="Anna" tabindex="0">French Connection
-                                                    </a>
-                                                </div>
-                                                <a href="#" class="card-title link-underline card-title-ellipsis">
-                                                    <span class="text">Dinterdum Pretium Condimento<span
-                                                            data-change-title> - Yellow</span>
-                                                    </span>
-                                                </a>
-                                                <div class="card-price price__sale">
-                                                    <div class="price-item price-item--regular">
-                                                        <span class="money ">$140.00</span>
-                                                    </div>
-                                                    <div class="price-item price__last">
-                                                        <span class="money ">$126.00</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="card-swatch text-center clearfix">
-                                                <ul class="swatch list-unstyled">
-                                                    <li class="item">
-                                                        <label class="swatch-label is-active" data-value="Yellow"
-                                                            data-variant-id>
-                                                            <span class="pattern"
-                                                                style="background-color: #ffe676"></span>
-                                                        </label>
-                                                    </li>
-                                                    <li class="item">
-                                                        <label class="swatch-label" data-value="Blue" data-variant-id>
-                                                            <span class="pattern"
-                                                                style="background-color: #7d919c"></span>
-                                                        </label>
-                                                    </li>
-                                                    <li class="item">
-                                                        <label class="swatch-label" data-value="Gray" data-variant-id>
-                                                            <span class="pattern"
-                                                                style="background-color: #afaea9"></span>
-                                                        </label>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="product-item col-6 col-md-4 col-lg-3">
-                                    <div class="product-card">
-                                        <div class="product-card-top">
-                                            <div class="card__badge badge-left">
-                                                <span class="badge sold-out-badge" aria-hidden="true">Sold out</span>
-                                            </div>
-                                            <div class="product-card-media">
-                                                <a href="#" class="animate-scale image image-adapt"
-                                                    style="padding-bottom: 133.33333333333334%">
-                                                    <img src="./assets/images/card-product/img-6.jpg"
-                                                        alt="Halo Product">
-                                                    <img src="./assets/images/card-product/img-5.jpg"
-                                                        alt="Halo Product">
-                                                </a>
-                                                <div class="card-product__group group-right">
-                                                    <div class="card-product__group-item card-wishlist">
-                                                        <a class="card-icon wishlist-icon" href="#" data-wishlist=""
-                                                            data-wishlist-handle="naminos-dementus-a-dincidunto-1"
-                                                            data-product-id="6617631162458" tabindex="0">
-                                                            <span class="visually-hidden">Add to wishlist</span>
-                                                            <span class="text">
-                                                                Add to wishlist
-                                                            </span>
-                                                            <svg viewBox="0 0 512 512" class="icon icon-wishlist">
-                                                                <g>
-                                                                    <g>
-                                                                        <path d="M474.644,74.27C449.391,45.616,414.358,29.836,376,29.836c-53.948,0-88.103,32.22-107.255,59.25
-                                                                c-4.969,7.014-9.196,14.047-12.745,20.665c-3.549-6.618-7.775-13.651-12.745-20.665c-19.152-27.03-53.307-59.25-107.255-59.25
-                                                                c-38.358,0-73.391,15.781-98.645,44.435C13.267,101.605,0,138.213,0,177.351c0,42.603,16.633,82.228,52.345,124.7
-                                                                c31.917,37.96,77.834,77.088,131.005,122.397c19.813,16.884,40.302,34.344,62.115,53.429l0.655,0.574
-                                                                c2.828,2.476,6.354,3.713,9.88,3.713s7.052-1.238,9.88-3.713l0.655-0.574c21.813-19.085,42.302-36.544,62.118-53.431
-                                                                c53.168-45.306,99.085-84.434,131.002-122.395C495.367,259.578,512,219.954,512,177.351
-                                                                C512,138.213,498.733,101.605,474.644,74.27z M309.193,401.614c-17.08,14.554-34.658,29.533-53.193,45.646
-                                                                c-18.534-16.111-36.113-31.091-53.196-45.648C98.745,312.939,30,254.358,30,177.351c0-31.83,10.605-61.394,29.862-83.245
-                                                                C79.34,72.007,106.379,59.836,136,59.836c41.129,0,67.716,25.338,82.776,46.594c13.509,19.064,20.558,38.282,22.962,45.659
-                                                                c2.011,6.175,7.768,10.354,14.262,10.354c6.494,0,12.251-4.179,14.262-10.354c2.404-7.377,9.453-26.595,22.962-45.66
-                                                                c15.06-21.255,41.647-46.593,82.776-46.593c29.621,0,56.66,12.171,76.137,34.27C471.395,115.957,482,145.521,482,177.351
-                                                                C482,254.358,413.255,312.939,309.193,401.614z"></path>
-                                                                    </g>
-                                                                </g>
-
-                                                            </svg>
-                                                        </a>
-                                                    </div>
-                                                    <div
-                                                        class="card-product__group-item card-quickview card-quickviewIcon">
-                                                        <a class="card-icon quickview-icon" href="javascript:void(0)"
-                                                            data-product-id="" data-open-quick-view-popup=""
-                                                            data-product-handle="" tabindex="0">
-                                                            <span class="visually-hidden">Quick View</span>
-                                                            <span class="text">Quick View</span>
-                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                viewBox="0 0 511.999 511.999" aria-hidden="true"
-                                                                focusable="false" role="presentation"
-                                                                class="icon icon-eyes">
-                                                                <path d="M508.745,246.041c-4.574-6.257-113.557-153.206-252.748-153.206S7.818,239.784,3.249,246.035
-                                                                    c-4.332,5.936-4.332,13.987,0,19.923c4.569,6.257,113.557,153.206,252.748,153.206s248.174-146.95,252.748-153.201
-                                                                    C513.083,260.028,513.083,251.971,508.745,246.041z M255.997,385.406c-102.529,0-191.33-97.533-217.617-129.418
-                                                                    c26.253-31.913,114.868-129.395,217.617-129.395c102.524,0,191.319,97.516,217.617,129.418
-                                                                    C447.361,287.923,358.746,385.406,255.997,385.406z">
-                                                                </path>
-                                                                <path
-                                                                    d="M255.997,154.725c-55.842,0-101.275,45.433-101.275,101.275s45.433,101.275,101.275,101.275
-                                                                    s101.275-45.433,101.275-101.275S311.839,154.725,255.997,154.725z M255.997,323.516c-37.23,0-67.516-30.287-67.516-67.516
-                                                                    s30.287-67.516,67.516-67.516s67.516,30.287,67.516,67.516S293.227,323.516,255.997,323.516z">
-                                                                </path>
-                                                            </svg>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                                <div class="card-action">
-                                                    <form action="/cart/add" method="post" class="variants"
-                                                        data-product-id="" enctype="multipart/form-data">
-                                                        <a class="button button-ATC is-notify-me text-center" href="#"
-                                                            data-btn-addtocart="">Notify me</a>
-                                                    </form>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="product-card-bottom">
-                                            <div class="product-card-information text-center">
-                                                <div class="card-vendor uppercase">
-                                                    <a href="#" title="Anna" tabindex="0">Burberry</a>
-                                                </div>
-                                                <a href="#" class="card-title link-underline card-title-ellipsis">
-                                                    <span class="text">Magnis Darturien Meros Laciniado<span
-                                                            data-change-title> - Black</span></span>
-                                                </a>
-                                                <div class="card-price">
-                                                    <div class="price-item">
-                                                        <span class="money">$89.00 - $139.00</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="card-swatch text-center clearfix">
-                                                <ul class="swatch list-unstyled">
-                                                    <li class="item">
-                                                        <label class="swatch-label is-active" data-value="black"
-                                                            data-variant-id>
-                                                            <span class="pattern" style="background-color: black">
-                                                            </span>
-                                                        </label>
-                                                    </li>
-                                                    <li class="item">
-                                                        <label class="swatch-label" data-value="orange" data-variant-id>
-                                                            <span class="pattern" style="background-color: moccasin">
-                                                            </span>
-                                                        </label>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </section>
                 <!-- END: Block Products -->
@@ -2013,6 +1463,7 @@
                         }]
                 });
             });
+            
             $('.efgh').slick({
                 slidesToShow: 3,
                 slidesToScroll: 3,
@@ -2046,6 +1497,41 @@
                         }
                     }]
             });
+
+            $('.xyz').slick({
+                dots: false,
+                infinite: false,
+                speed: 300,
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                prevArrow: '<button class="slick-prev"></button>',
+                nextArrow: '<button class="slick-next"></button>',
+
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 3,
+                            infinite: true,
+                            dots: true
+                        }
+                    },
+                    {
+                        breakpoint: 800,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1
+                        }
+                    }]
+            })
 
         </script>
 </body>
