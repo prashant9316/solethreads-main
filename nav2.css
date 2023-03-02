@@ -306,6 +306,7 @@
 .sneaker-heading > div > h1{
     font-size: 45px;
     margin-top: -20px;
+    width: max-content;
 }
 .grp-btn-sort{
     display: flex;
@@ -315,6 +316,9 @@
 .sort-btn{
     width: 150px;
     border-radius: 6px;
+}
+.search-btn{
+    padding: 2px;
 }
 
 

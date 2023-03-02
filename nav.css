@@ -394,7 +394,7 @@
 
   
   .categoryheading{
-    font-family: 'Arial';
+    font-family: 'Bulldog';
     font-style: italic;
     font-weight: 800;
     font-size: 45px;
@@ -531,7 +531,14 @@
   .abcde .slidercard img{
     width: 100%;
     
-    padding: 0px 5px;
+    padding: 0px 0px;
+  }
+  .abcde .slidercard .photo{
+    margin: 0px 5px;
+    width: 100%;
+    margin: 0;
+    display: block;
+    box-shadow: 4px 4px 7px #ababab;
   }
   
   /* .main-card .cardsss .abcde .slidercard:hover{
@@ -687,7 +694,7 @@
   
   
   
-  font-family: 'Arial';
+  font-family: 'Bulldog';
   font-style: italic;
   font-weight: 700;
   font-size: 50px;
@@ -762,7 +769,7 @@
     
   }
   .slidercard .info h2{
-    font-family: Arial;
+    font-family: 'Bulldog';
     padding-top: 8px;
     padding-bottom: 4px;
     padding-left: 12px;
@@ -839,17 +846,43 @@
     border-radius: 3px;
   }
   
+  .btn-shop-now {
+    position: relative;
+    width: 25vw;
+    margin: auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    font-weight: lighter!important;
+  }
+
+  @media screen and (max-width: 1024) {
+    .btn-shop-now{
+      width: 45vw;
+    }
+  }
+
+
   @media screen and (max-width: 600px) {
     .btn-shop-both{
         
     }
+    .btn-shop-now{
+      width: 50vw;
+    }
   }
+
+  @media screen and (max-width: 480px) {
+    .btn-shop-now{
+      width: 90vw;
+    }
+  }
+
   
 
   .blink {
     animation: blinker 1s linear infinite;
     color: red;
-    font-family: sans-serif;
+    font-family: 'Bulldog';
     }
     @keyframes blinker {
         50% {
@@ -880,7 +913,7 @@
     z-index: 2;
   }
   .lookbook-heading h1{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Bulldog';
     /* font-style: italic; */
     font-weight: 600;
     font-size: 14vw;
@@ -942,7 +975,7 @@
   }
   
   .flipflopsmen-heading h1{
-    font-family: 'Arial';
+    font-family: 'Bulldog';
     font-style: italic;
     font-weight: 700;
     font-size: 10px;
@@ -995,7 +1028,7 @@
     }
     .instaHead h1{
       text-transform: uppercase;
-      font-family: 'Arial';
+      font-family: 'Bulldog';
       font-style: italic;
       font-weight: 700;
       font-size: 3vw;
@@ -1100,7 +1133,7 @@
   }
   .form-content p{
     padding: 10px 0px;
-    font-family: arial;
+    font-family: 'Bulldog';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -1180,7 +1213,7 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
   .ct-footer-pre span {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Bulldog';
     color: #ebebeb;
     font-size: 30px;
   }
@@ -1221,7 +1254,7 @@
     /* border-bottom: 1px solid rgba(255, 255, 255, 0.1); */
   }
   .ct-footer-list > li .ct-footer-list-header {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Bulldog';
     color: #ffffff;
     font-size: 20px;
     font-weight: bolder;
@@ -1287,7 +1320,7 @@
     text-decoration: underline;
   }
   .btn {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Bulldog';
     border-radius: 0;
     border: none;
     text-transform: uppercase;
@@ -1360,13 +1393,13 @@
     background-attachment: fixed;
   }
   .ct-section_header--type1 {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Bulldog';
     color: #000;
     font-size: 115px;
     text-transform: uppercase;
   }
   .ct-section_header--type2 small {
-    font-family: 'coquette', fantasy;
+    font-family: 'Bulldog';
     font-size: 58px;
     line-height: .7;
     display: block;
@@ -1390,7 +1423,7 @@
     text-align: center;
   }
   .ct-section_header--type3 small {
-    font-family: 'coquette', fantasy;
+    font-family: 'Bulldog';
     font-size: 50px;
     padding: 15px 0;
     font-weight: 700;
@@ -1402,7 +1435,7 @@
     display: block
   }
   .ct-section_header--type3 span {
-    font-family: 'Bebas Neue';
+    font-family: 'Bulldog';
     font-size: 150px;
     font-weight: 400;
     text-transform: uppercase;
@@ -1427,7 +1460,7 @@
     display: block
   }
   .ct-section_header--type4 span {
-    font-family: 'nimbus-sans-condensed', sans-serif;
+    font-family: 'Bulldog';
     font-weight: 400;
     font-weight: bold;
     font-size: 150px;
@@ -1442,7 +1475,7 @@
     text-align: center;
   }
   .ct-section_header--type4 + p {
-    font-family: 'nimbus-sans-condensed', sans-serif;
+    font-family: 'Bulldog';
     font-weight: 400;
     font-size: 40px;
     font-weight: 700;
@@ -1615,7 +1648,7 @@
     color: white;
     background: #9EA1A1D6;
     letter-spacing: 5px;
-    font-family: Arial;
+    font-family: 'Bulldog';
     
   }
   .womenflipflopbutton button{

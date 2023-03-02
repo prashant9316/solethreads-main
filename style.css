@@ -10,7 +10,7 @@ li {
     list-style-type: none;
 }
 .wrapper {
-    font-family: Roboto;
+    font-family: 'Bulldog';
     width: 100%;
     overflow: hidden;
 }
@@ -1559,7 +1559,7 @@ figure {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
   .ct-footer-pre span {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Bulldog';
     color: #ebebeb;
     font-size: 30px;
   }
@@ -1599,7 +1599,7 @@ figure {
     /* border-bottom: 1px solid rgba(255, 255, 255, 0.1); */
   }
   .ct-footer-list > li .ct-footer-list-header {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Bulldog';
     color: #ffffff;
     padding-left: 20px;
     font-size: 20px;
@@ -1666,7 +1666,7 @@ figure {
     text-decoration: underline;
   }
   .btn {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Bulldog';
     border-radius: 0;
     border: none;
     text-transform: uppercase;
@@ -1739,13 +1739,13 @@ figure {
     background-attachment: fixed;
   }
   .ct-section_header--type1 {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Bulldog';
     color: #000;
     font-size: 115px;
     text-transform: uppercase;
   }
   .ct-section_header--type2 small {
-    font-family: 'coquette', fantasy;
+    font-family: 'Bulldog';
     font-size: 58px;
     line-height: .7;
     display: block;
@@ -1754,7 +1754,7 @@ figure {
     left: -12px;
   }
   .ct-section_header--type2 span {
-    font-family: 'Bebas Neue';
+    font-family: 'Bulldog';
     font-size: 115px;
     line-height: .8;
   }
@@ -1769,7 +1769,7 @@ figure {
     text-align: center;
   }
   .ct-section_header--type3 small {
-    font-family: 'coquette', fantasy;
+    font-family: 'Bulldog';
     font-size: 50px;
     padding: 15px 0;
     font-weight: 700;
@@ -1781,7 +1781,7 @@ figure {
     display: block
   }
   .ct-section_header--type3 span {
-    font-family: 'Bebas Neue';
+    font-family: 'Bulldog';
     font-size: 150px;
     font-weight: 400;
     text-transform: uppercase;
@@ -1799,14 +1799,14 @@ figure {
     clear: both
   }
   .ct-section_header--type4 small {
-    font-family: 'coquette', fantasy;
+    font-family: 'Bulldog';
     font-size: 50px;
     color: inherit;
     font-weight: 700;
     display: block
   }
   .ct-section_header--type4 span {
-    font-family: 'nimbus-sans-condensed', sans-serif;
+    font-family: 'Bulldog';
     font-weight: 400;
     font-weight: bold;
     font-size: 150px;
@@ -1821,7 +1821,7 @@ figure {
     text-align: center;
   }
   .ct-section_header--type4 + p {
-    font-family: 'nimbus-sans-condensed', sans-serif;
+    font-family: 'Bulldog';
     font-weight: 400;
     font-size: 40px;
     font-weight: 700;
